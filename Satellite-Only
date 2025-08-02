@@ -1,0 +1,65 @@
+# ☀️ Green Spark Submission
+
+## Project Title
+Satellite-Only Micro Solar Forecasting
+
+## Problem Statement Addressed
+"How might we build and deploy technology-driven solutions that actively promote cleaner, greener communities and environmental sustainability?"
+
+**Specific Focus:**  
+Hyperlocal rooftop solar potential forecasting using satellite weather data + historical solar irradiance — enabling **smarter rooftop solar planning** for both rural and urban households.
+
+## Project Overview
+Installing rooftop solar panels often suffers from **inaccurate local forecasts**, which affects generation estimates and return on investment. Our solution uses a **hybrid Deep Learning model** to:
+- Ingest **open satellite weather data** (e.g., cloud cover, temperature, humidity).
+- Combine it with **historical solar irradiance data** for the target location.
+- Use a **CNN** to extract spatial features from satellite images.
+- Feed the output to an **LSTM** to predict next-day solar generation potential for an individual rooftop.
+- Deliver daily predictions to homeowners, installers, or microgrid planners.
+
+## Key Features
+- 🛰️ **Satellite Data Driven:** No local sensors needed — purely remote prediction.
+- 🧠 **CNN + LSTM Pipeline:** CNN processes satellite images; LSTM handles time-series trend prediction.
+- 📈 **Daily Solar Forecasts:** Provides rooftop-level estimates of next-day generation.
+- ⚡ **Decision Support:** Helps plan when to clean panels, adjust usage, or size battery storage.
+
+## GitHub Repository Link
+<!-- Replace with your public repo link -->
+[https://github.com/YourTeam/MicroSolarForecast](https://github.com/YourTeam/MicroSolarForecast)
+
+## Team Members & Roles
+- Naseema nesrin— Satellite Data Collection & Preprocessing
+- hanna— DL Model Development (CNN + LSTM)
+
+## Screenshot
+Example — satellite input & daily rooftop forecast output:
+
+![Screenshot](./assets/solar_forecast_example.png)
+
+## Additional Notes
+- **Data Sources:** NASA POWER, NOAA GOES satellite data, local irradiance archives.
+- **Tech Stack:** Python, TensorFlow/Keras, OpenCV, Pandas, Streamlit for output UI.
+- **Challenges:** Getting cloud-free composite imagery, rooftop-level downscaling, time alignment.
+- **Future Plans:** Add real-time updates, expand to 7-day forecasts, connect to IoT smart inverters.
+
+---
+
+## 📤 How to Submit
+
+1. Finalize your work before **9:00 PM IST**.
+2. Make your GitHub repo **public** with:
+   - `README.md` (this file)
+   - Code/notebooks
+   - Example output/screenshots
+3. Submit your **repo link** via the assigned GitHub Issue.
+
+---
+
+## 🧑‍⚖️ Judging Criteria
+
+Submissions will be evaluated on:
+- ✅ Relevance & clarity of the solution
+- ✅ Sound ML/DL approach (CNN + LSTM)
+- ✅ Feasibility for real-world rooftops
+- ✅ Impact on clean energy adoption
+- ✅ Clarity & presentation of results
