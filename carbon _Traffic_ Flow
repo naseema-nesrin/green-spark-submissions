@@ -1,0 +1,87 @@
+# 🚦 Green Spark Submission
+
+## Project Title
+Low-carbon Traffic Flow Optimizer
+
+## Problem Statement Addressed
+"How might we build and deploy technology-driven solutions that actively promote cleaner, greener communities and environmental sustainability?"
+
+**Specific Focus:**  
+Reduce urban fuel waste and CO₂ emissions by optimizing city traffic flow with **Deep Learning**, **Reinforcement Learning (RL)**, and an **LLM** for driver/policy insights.
+
+## Project Overview
+Urban traffic congestion causes vehicles to idle, wasting fuel and increasing carbon emissions. Our solution combines **DL**, **RL**, and **LLMs** to:
+- Analyze city traffic camera feeds in real-time.
+- Detect and map congestion patterns using a Deep Learning computer vision model.
+- Apply a Reinforcement Learning agent to test adaptive traffic signal timings that reduce idling and improve flow.
+- Use a Large Language Model to automatically generate daily tips for drivers (eco-driving, best routes) and policy briefs for city planners (estimated fuel savings, CO₂ reductions).
+
+## Key Features
+- 📷 **Traffic Camera Analysis:** CNN-based model to detect congestion zones, traffic density, and flow speed.
+- 🤖 **Reinforcement Learning Signal Control:** RL agent simulates and optimizes green/red signal durations to reduce idle time.
+- 📝 **LLM-Powered Reports:** Generates clear, plain-language daily updates — driver tips, carbon savings, and policy suggestions.
+- 📊 **Dashboard (Optional):** Shows live traffic status, CO₂ savings estimates, and RL recommendations.
+
+## GitHub Repository Link
+<!-- Replace with your public repo link -->
+[https://github.com/YourTeam/LowCarbonTrafficOptimizer](https://github.com/YourTeam/LowCarbonTrafficOptimizer)
+
+## Team Members & Roles
+- naseema nesrin — DL Traffic Detection Model
+- hanna— RL Signal Optimization Agent and LLM Reports & Dashboard
+
+## Screenshot
+Example output — congestion map + signal plan + daily LLM tips:| Intersection | Current Cycle      | Suggested Cycle    | Expected Idle Time Reduction |
+| ------------ | ------------------ | ------------------ | ---------------------------- |
+| 5th & Main   | 60s green, 30s red | 70s green, 20s red | ↓ 12% idle time              |
+| Park & Elm   | 45s green, 40s red | 50s green, 35s red | ↓ 9% idle time               |
+| River Ave    | 50s green, 40s red | 55s green, 35s red | ↓ 7% idle time               |
+Daily LLM Driver Tips (Generated)
+Good morning!  Here are your eco-driving tips for today:
+
+Use 2nd Avenue instead of River Ave between 5–6 PM to avoid delays — 5 min faster.
+
+Avoid aggressive acceleration and braking near Park & Elm — smoother flow helps reduce emissions.
+
+If possible, try carpooling on your daily route — estimated CO₂ savings: 2.3 kg/day per car.
+
+ Daily LLM City Policy Brief (Generated)
+Traffic Optimization Summary — August 2, 2025
+
+Estimated Fuel Saved: 180 liters city-wide
+
+Estimated CO₂ Reduction: 420 kg/day
+
+Key Recommendations: Adjust signal timing at 5th & Main; deploy signage to guide drivers to alternative routes.
+
+Next Steps: Run RL simulation updates every 24 hrs; publish tips in local language.
+
+![Screenshot](./assets/traffic_optimizer_example.png)
+
+## Additional Notes
+- **Data Sources:** Open city traffic cam feeds, simulated traffic scenarios (e.g., SUMO traffic simulator).
+- **Tech Stack:** Python, TensorFlow/Keras (DL), OpenAI Gym for RL, Hugging Face for LLM, Flask/Streamlit for dashboard.
+- **Challenges:** Real-time video feed processing, safe RL policy simulation, making LLM tips actionable.
+- **Future Plans:** Integration with city traffic control systems, multi-city scaling, multilingual driver advice.
+
+---
+
+## 📤 How to Submit
+
+1. Finalize your work before **9:00 PM IST**.
+2. Ensure your GitHub repository is **public** and includes:
+   - `README.md` (this file)
+   - Code/notebooks
+   - Example output/screenshots
+3. Submit the **repo link** in the designated GitHub Issue.
+
+---
+
+## 🧑‍⚖️ Judging Criteria
+
+Submissions will be evaluated on:
+- ✅ Relevance to the problem statement
+- ✅ Clarity of approach (DL + RL + LLM)
+- ✅ Technical feasibility
+- ✅ Impact potential for low-carbon mobility
+- ✅ Creativity, practicality & clear communication
